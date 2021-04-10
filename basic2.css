@@ -1,0 +1,100 @@
+body {
+    
+    padding-top: 100px;
+}
+
+h1 {
+    font-family: 'Times New Roman', fantasy;
+    font-size:45px;
+    text-align:center;
+   border-bottom: 1px solid gray;
+   margin:0;
+   padding:5px;
+}
+h2{
+    color:rgb(206, 117, 58);
+    font-family:cursive;
+    font-size:18px;
+    padding-left:15px;
+    
+}
+
+hr {
+    margin: 0 30px;
+}
+h3 {
+    color:#6b5892;
+    margin:0;
+}
+.profile {
+    background-color: white;
+    border-top: 10px solid #ad365e;
+    border-bottom: 10px solid #943167;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 900px;
+
+    text-align: center;
+    opacity: 0.8;
+}
+ol {
+    border-right: 1px solid gray;
+    width:150px;
+    margin: 0;
+    padding:30px;
+}
+a {
+    color:black;
+    text-decoration: none;
+  }
+li{
+    font-size: 20px;
+    
+}
+  
+
+#grid{
+    display:grid;
+    grid-template-columns:200px 1fr ;
+}
+#grid ol{
+    padding-left: 33px;
+}
+#article{
+    font-size:30px;
+    padding-left: 20px;
+}
+.p2-image1 {
+    width: 160px;
+    height: 160px;
+    border-radius: 35px;
+    margin-top: -60px;
+    
+    left: 850px;
+    right: 100px;
+    }
+    .p2-image2 {
+        width: 160px;
+        height: 160px;
+        border-radius: 35px;
+        margin-top: -60px;
+        position: absolute;
+        left: 550px;
+        right: 100px;
+        }
+        .blink {
+            font-size: 45px;
+            -webkit-animation: blink 2.5s linear infinite;
+        } 
+        @-webkit-keyframes blink {
+            0% { background-color: red; }
+            33% { background-color: yellow; }
+            66% { background-color: blue; }
+            100% { background-color: green; }
+       
+        }
+        
+body{
+    background-image: url('back2.jpg');
+    background-size: 100%;
+}
