@@ -73,12 +73,12 @@ li{
     left: 850px;
     right: 100px;
     }
-    .p2-image2 {
+.p2-image2 {
         width: 160px;
         height: 160px;
         border-radius: 35px;
         margin-top: -60px;
-        position: absolute;
+        
         left: 550px;
         right: 100px;
         }
